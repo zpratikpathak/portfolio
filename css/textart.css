@@ -15,6 +15,10 @@
   font-size: 60px;
   color: #fff;
 }
+.textArt a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .textArt .wrapper .dynamic-txts {
   margin-left: 15px;
@@ -65,6 +69,9 @@
 }
 
 @media (max-width: 640px) {
+  .textArt {
+    flex-direction: column;
+  }
   .textArt .wrapper {
     display: flex;
     flex-direction: column;
