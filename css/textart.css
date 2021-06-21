@@ -8,6 +8,7 @@
 
 .textArt .wrapper {
   display: inline-flex;
+  margin-bottom: 100px;
 }
 
 .textArt .wrapper .static-txt {
@@ -67,6 +68,5 @@
   .textArt .wrapper {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
   }
 }
