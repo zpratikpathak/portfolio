@@ -140,7 +140,7 @@ body {
     height: 50px;
     display: initial;
     z-index: 10000;
-    background: #fff url(./icons/menu.png);
+    background: #fff url(./../icons/menu.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +148,7 @@ body {
   }
 
   .menuIcon.active {
-    background: #fff url(./icons/close.png);
+    background: #fff url(./../icons/close.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
