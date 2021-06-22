@@ -68,7 +68,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .textArt {
     flex-direction: column;
   }
