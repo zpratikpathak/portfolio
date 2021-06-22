@@ -63,11 +63,11 @@ body {
 
 .page:nth-of-type(1) {
   background-color: #111;
-  color: azure;
+  color: #fff;
 }
 
 .page:nth-of-type(2) {
-  background-color: darkgrey;
+  background-color: #111;
   color: azure;
 }
 
