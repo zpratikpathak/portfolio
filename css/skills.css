@@ -77,21 +77,19 @@
 .box .percent svg circle:nth-child(2) {
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
+  stroke: #00ff43;
 }
 
 .skill-card:nth-child(1) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 92) / 100);
-  stroke: #00ff43;
 }
 
 .skill-card:nth-child(2) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
-  stroke: #00ff43;
 }
 
 .skill-card:nth-child(3) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 86) / 100);
-  stroke: #00ff43;
 }
 /* image and title */
 .skill .container .skill-card .content {
