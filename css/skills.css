@@ -21,7 +21,7 @@
   flex-wrap: wrap;
 }
 
-.skill .container .card {
+.skill .container .skill-card {
   position: relative;
   width: 300px;
   height: 400px;
@@ -35,7 +35,7 @@
   backdrop-filter: blur(10px);
 }
 
-.skill .container .card .content .box .percent {
+.skill .container .skill-card .content .box .percent {
   position: relative;
   width: 150px;
   height: 150px;
@@ -45,7 +45,7 @@
   z-index: 1000;
 }
 
-.skill .container .card .content .box .percent .number {
+.skill .container .skill-card .content .box .percent .number {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,7 +57,7 @@
   border-radius: 50%;
 }
 
-.skill .container .card .content .box .percent svg {
+.skill .container .skill-card .content .box .percent svg {
   position: relative;
   width: 150px;
   height: 150px;
@@ -79,22 +79,22 @@
   stroke-dashoffset: 440;
 }
 
-.card:nth-child(1) .box .percent svg circle:nth-child(2) {
+.skill-card:nth-child(1) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 92) / 100);
   stroke: #00ff43;
 }
 
-.card:nth-child(2) .box .percent svg circle:nth-child(2) {
+.skill-card:nth-child(2) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 90) / 100);
   stroke: #00ff43;
 }
 
-.card:nth-child(3) .box .percent svg circle:nth-child(2) {
+.skill-card:nth-child(3) .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 86) / 100);
   stroke: #00ff43;
 }
 /* image and title */
-.skill .container .card .content {
+.skill .container .skill-card .content {
   position: relative;
   display: flex;
   justify-content: center;
@@ -104,12 +104,12 @@
   transition: 0.5s;
 }
 
-.skill .container .card:hover .content {
+.skill .container .skill-card:hover .content {
   opacity: 1;
   transform: translateY(-20px);
 }
 
-.skill .container .card .content .contenBx h3 {
+.skill .container .skill-card .content .contenBx h3 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -120,19 +120,19 @@
   line-height: 1.1em;
 }
 
-.skill .container .card .content .contenBx h3 span {
+.skill .container .skill-card .content .contenBx h3 span {
   font-size: 12px;
   font-weight: 300;
   text-transform: initial;
 }
 
-.skill .container .card .prgmIcon {
+.skill .container .skill-card .prgmIcon {
   position: absolute;
   bottom: 50px;
   display: flex;
 }
 
-.skill .container .card .prgmIcon li {
+.skill .container .skill-card .prgmIcon li {
   list-style: none;
   margin: 0 10px;
   transform: translateY(40px);
@@ -143,18 +143,18 @@
   transition-delay: calc(0.1s * var(--i));
 }
 
-.skill .container .card:hover .prgmIcon li {
+.skill .container .skill-card:hover .prgmIcon li {
   transform: translateY(0px);
   opacity: 1;
 }
 
 @media (max-width: 1024px) {
-  .skill .container .card {
+  .skill .container .skill-card {
     width: 260px;
     height: 300px;
   }
 
-  .skill .container .card:hover .prgmIcon li {
+  .skill .container .skill-card:hover .prgmIcon li {
     transform: translateY(30px);
   }
 }
