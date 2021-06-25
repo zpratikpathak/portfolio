@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/textart.css" />
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/contact-page.css">
+
+    <script src="./js/smtp.js"></script>
   </head>
   <body>
     <div class="scroll-snap">
@@ -201,7 +204,59 @@
       </div>
 
       <div class="page" id="contact">
-        <h1>Contact</h1>
+        <div class="contact-page">
+          <section>
+            <div class="contact-container">
+              <h2>Contact Us</h2>
+              <form action="POST" id="contact-form">
+                <div class="contact-row100">
+                  <div class="contact-col">
+                    <div class="contact-inputBox">
+                      <input type="text" name="" required="required" id="fname" />
+                      <span class="text">First Name</span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+    
+                  <div class="contact-col">
+                    <div class="contact-inputBox">
+                      <input type="text" name="" required="required" id="lname" />
+                      <span class="text">Last Name</span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="contact-row100">
+                  <div class="contact-col">
+                    <div class="contact-inputBox">
+                      <input type="text" name="" required="required" id="email" />
+                      <span class="text">Email</span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="contact-row100">
+                  <div class="contact-col">
+                    <div class="contact-inputBox textarea">
+                      <textarea required="required" id="messageval"></textarea>
+                      <span class="text">Type your message here...</span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="contact-row100">
+                  <div class="contact-col">
+                    <input type="submit" value="Send &rarr;" />
+                  </div>
+                  <div class="contact-error" id="error-box"></div>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
       </div>
 
       <div class="page" id="about">
