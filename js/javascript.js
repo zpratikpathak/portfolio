@@ -1,3 +1,4 @@
+// Burger Menu
 document.getElementById("menuIcon").addEventListener("click", () => {
   const menuIcon = document.querySelector(".menuIcon");
   const navbar = document.getElementById("navbar");
@@ -5,6 +6,7 @@ document.getElementById("menuIcon").addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
 
+// Contact Form backend
 const form = document.getElementById("contact-form");
 
 form.addEventListener("submit", async (event) => {
