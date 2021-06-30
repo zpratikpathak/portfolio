@@ -6,6 +6,24 @@ document.getElementById("menuIcon").addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
 
+//Swiper JS
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 30,
+    stretch: 0,
+    depth: 400,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
 // Contact Form backend
 const form = document.getElementById("contact-form");
 
