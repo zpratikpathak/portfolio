@@ -42,7 +42,7 @@ form.addEventListener("submit", async (event) => {
     let messageval = document.getElementById("messageval").value;
 
     Email.send({
-      SecureToken: "00e60553-da0c-4dd7-bf93-67979a775e98",
+      SecureToken: "5f0c1801-6b47-4e32-ab7e-25a89414ef6b",
       To: "pratikpathak200@gmail.com",
       From: email,
       Subject: "Portfolio Message Request",
