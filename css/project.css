@@ -84,6 +84,13 @@
   background-size: cover;
 }
 
+.swiper-slide:nth-child(6) .project-sliderText {
+  background: url(./../images/project-images/Cowin-Alert.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .project-card .project-sliderText h3 {
   color: #fff;
   font-size: 3em;
