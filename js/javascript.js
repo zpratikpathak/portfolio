@@ -5,6 +5,13 @@ document.getElementById("menuIcon").addEventListener("click", () => {
   menuIcon.classList.toggle("active");
   navbar.classList.toggle("active");
 });
+//AutoMenuClose
+document.querySelectorAll(".autoclosemenu").forEach((el) =>
+  el.addEventListener("click", () => {
+    menuIcon.classList.toggle("active");
+    navbar.classList.toggle("active");
+  })
+);
 
 //Swiper JS
 var swiper = new Swiper(".mySwiper", {
@@ -22,6 +29,7 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
   },
+  loop: true,
 });
 
 // Contact Form backend

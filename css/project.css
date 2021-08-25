@@ -49,7 +49,7 @@
   background: #000;
 }
 
-.swiper-slide:nth-child(1) .project-sliderText {
+/* .swiper-slide:nth-child(1) .project-sliderText {
   background: url(./../images/project-images/project1.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -89,7 +89,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 .project-card .project-sliderText h3 {
   color: #fff;
