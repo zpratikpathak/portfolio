@@ -8,8 +8,12 @@ document.getElementById("menuIcon").addEventListener("click", () => {
 //AutoMenuClose
 document.querySelectorAll(".autoclosemenu").forEach((el) =>
   el.addEventListener("click", () => {
-    menuIcon.classList.toggle("active");
-    navbar.classList.toggle("active");
+    // console.log(screen.width);
+    // console.log(innerWidth);
+    if (innerWidth < 991) {
+      menuIcon.classList.toggle("active");
+      navbar.classList.toggle("active");
+    }
   })
 );
 
