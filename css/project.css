@@ -49,47 +49,47 @@
   background: #000;
 }
 
-/* .swiper-slide:nth-child(1) .project-sliderText {
+.swiper-slide .project-sliderText.local-connect {
   background: url(./../images/project-images/project1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(2) .project-sliderText {
+.swiper-slide .project-sliderText.fake-news-detection {
   background: url(./../images/project-images/project2.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(3) .project-sliderText {
+.swiper-slide .project-sliderText.skin-disease-analysis {
   background: url(./../images/project-images/project3.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(4) .project-sliderText {
+.swiper-slide .project-sliderText.travel-india {
   background: url(./../images/project-images/project4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(5) .project-sliderText {
+.swiper-slide .project-sliderText.fake-image-verifier {
   background: url(./../images/project-images/project5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(6) .project-sliderText {
+.swiper-slide .project-sliderText.cowin-alert {
   background: url(./../images/project-images/Cowin-Alert.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
+}
 
 .project-card .project-sliderText h3 {
   color: #fff;
